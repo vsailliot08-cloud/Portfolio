@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrer | Valentin Sailliot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>:root { --page-color: var(--c-administrer); }</style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo" id="rotateLogo">VALENTIN<span>.</span></div>
+            <div class="nav-links">
+                <a href="index.html">Accueil</a>
+                <a href="index.html#projets" class="active-link">Projets</a>
+                <a href="about.html">À propos</a>
+            </div>
+            <a href="contact.html" class="nav-cta">Contact</a>
+        </nav>
+    </header>
+
+    <main class="competence-page">
+        <div class="competence-page-container">
+
+            <a href="index.html#projets" class="back-link">← Retour aux compétences</a>
+
+            <div class="competence-hero">
+                <div class="competence-hero-icon"><i class="fas fa-sitemap"></i></div>
+                <div class="competence-hero-text">
+                    <span class="competence-hero-number">COMPÉTENCE 01</span>
+                    <h1 class="competence-hero-title">Administrer<span>.</span></h1>
+                    <p class="competence-hero-desc">Administrer les réseaux et l&#x27;Internet</p>
+                </div>
+            </div>
+
+            <section class="year-section">
+                <div class="year-header">
+                    <span class="year-tag">BUT 3</span>
+                    <span class="year-label">Concevoir un réseau</span>
+                    <span class="year-line"></span>
+                </div>
+                <div class="ac-list">
+                    <article class="ac-card">
+                        <div class="ac-header">
+                            <span class="ac-code">AC 31.01</span>
+                            <h3 class="ac-title">Concevoir un projet de réseau informatique d&#x27;une entreprise en intégrant les problématiques de haute disponibilité, de QoS, de sécurité et de supervision</h3>
+                        </div>
+                        <div class="ac-content">
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que j&#x27;ai fait</span>
+                                <p>Dans le cadre de la SAÉ 4.01 (Sécuriser un système d&#x27;information), j&#x27;ai participé à la conception complète d&#x27;une maquette réseau d&#x27;entreprise hautement sécurisée reliant un siège social et une succursale.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Pourquoi</span>
+                                <p>L&#x27;objectif était de concevoir une architecture capable de résister aux pannes (haute disponibilité), de garantir que les flux importants ne soient pas ralentis (QoS), et de protéger l&#x27;accès aux serveurs contre les intrusions extérieures.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Comment</span>
+                                <p>Nous avons conçu le réseau en intégrant des pare-feux Cisco ASA et des commutateurs de couche 3. J&#x27;ai planifié la segmentation en différents sous-réseaux (VLAN 10 Admin, VLAN 20 Production, VLAN 30 Services) pour appliquer le principe du moindre privilège, et j&#x27;ai configuré un routage dynamique OSPF associé à des règles de sécurité (ACL) pour valider l&#x27;étanchéité des flux.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Difficultés</span>
+                                <p>La principale difficulté a été la configuration des pare-feux Cisco ASA. C&#x27;était une technologie complètement nouvelle pour nous, nous n&#x27;en avions jamais manipulé en cours auparavant. Il a fallu faire beaucoup de recherches pour comprendre leur logique, définir les bonnes interfaces et réussir à y appliquer nos règles de filtrage (ACL) sans bloquer tout le trafic.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que j&#x27;en ai appris</span>
+                                <p>J&#x27;ai appris qu&#x27;une architecture réseau d&#x27;entreprise doit être pensée de manière globale. La sécurité et la haute disponibilité ne doivent pas être ajoutées après coup, mais intégrées dès le départ dans le choix du routage et de la segmentation pour que l&#x27;ensemble reste fluide et résilient.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que je ferais autrement</span>
+                                <p>Pour de prochains projets, je prendrais le temps de tester mes règles de sécurité sur un petit ordinateur de test à part avant de les appliquer sur l&#x27;ensemble de la maquette. Cela m&#x27;éviterait de bloquer le réseau par erreur et me ferait gagner un temps précieux lors des configurations.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="ac-card">
+                        <div class="ac-header">
+                            <span class="ac-code">AC 31.02</span>
+                            <h3 class="ac-title">Réaliser la documentation technique de ce projet</h3>
+                        </div>
+                        <div class="ac-content">
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que j&#x27;ai fait</span>
+                                <p>Dans le cadre de nos projets d&#x27;infrastructure (comme la SAÉ 4.01), j&#x27;ai participé activement en équipe à la rédaction et à la formalisation du livrable technique final sous forme de rapport détaillé (Write-Up).</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Pourquoi</span>
+                                <p>L&#x27;objectif d&#x27;un Write-Up collaboratif est de créer un document de référence unique, précis et partagé. Un réseau informatique d&#x27;entreprise ne peut pas être maintenu sans une documentation rigoureuse qui liste l&#x27;ensemble des configurations, des mots de passe et des règles appliquées pour que l&#x27;équipe puisse assurer l&#x27;exploitation et le dépannage.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Comment</span>
+                                <p>Nous avons structuré le document de manière collaborative en y intégrant les configurations complètes des équipements (Switch L3, pare-feu ASA, tunnels GRE/IPsec), le détail de la sécurisation des services (Nginx, HTTPS, DNSSEC, MySQL) et les checklists de recommandations de l&#x27;ANSSI.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Difficultés</span>
+                                <p>La principale difficulté de cet exercice collaboratif a été d&#x27;harmoniser les contributions de chacun pour que le rapport final reste cohérent, fluide à lire et homogène, tout en veillant à ce que l&#x27;intégralité des configurations techniques complexes de la maquette y soit reportée sans erreur.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que j&#x27;en ai appris</span>
+                                <p>J&#x27;ai appris que la documentation technique est un élément critique de la gestion de projet. Rédiger un Write-Up complet demande une grande rigueur collective et permet de développer des compétences clés en communication technique, indispensables pour transférer proprement la responsabilité d&#x27;une infrastructure à d&#x27;autres équipes.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que je ferais autrement</span>
+                                <p>Pour optimiser le travail d&#x27;équipe sur les volumineux documents de configuration, j&#x27;utiliserais une approche de « Documentation as Code » (en rédigeant en Markdown sur un dépôt Git partagé), ce qui permettrait de suivre l&#x27;historique des modifications de chacun et de générer automatiquement un rapport final propre et unifié.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="ac-card">
+                        <div class="ac-header">
+                            <span class="ac-code">AC 31.03</span>
+                            <h3 class="ac-title">Réaliser une maquette de démonstration du projet</h3>
+                        </div>
+                        <div class="ac-content">
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que j&#x27;ai fait</span>
+                                <p>Dans le cadre de nos projets de réseaux d&#x27;entreprise (comme la SAÉ 3.03 ou la SAÉ 4.01), j&#x27;ai réalisé des maquettes informatiques fonctionnelles pour tester et démontrer la viabilité de nos solutions techniques.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Pourquoi</span>
+                                <p>L&#x27;objectif d&#x27;une maquette (ou Proof of Concept) est de prouver concrètement que les choix d&#x27;architecture imaginés sur papier fonctionnent réellement en pratique, avant de déployer la solution à grande échelle chez le client ou dans l&#x27;entreprise.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Comment</span>
+                                <p>J&#x27;ai utilisé le logiciel de simulation Cisco Packet Tracer pour reproduire fidèlement l&#x27;infrastructure complète. J&#x27;ai câblé virtuellement les routeurs, les commutateurs de couche 3 et les pare-feux. J&#x27;ai configuré le routage dynamique (OSPF), le chiffrement des tunnels inter-sites (IPsec) et l&#x27;attribution automatique des adresses (DHCP) pour simuler des échanges de données réels entre un siège et sa succursale.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Difficultés</span>
+                                <p>La principale difficulté a été de faire fonctionner l&#x27;ensemble des protocoles en même temps sur la maquette sans créer de conflits. Il a fallu configurer méthodiquement chaque équipement étape par étape et effectuer de nombreux tests (comme des pings ou des vérifications de tables de routage) pour repérer et corriger les erreurs de syntaxe.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que j&#x27;en ai appris</span>
+                                <p>J&#x27;ai appris qu&#x27;une maquette est indispensable pour confronter la théorie à la pratique. Elle permet de détecter les erreurs de configuration ou les oublis logiques très tôt dans le projet, ce qui évite de commettre des erreurs critiques et coûteuses lors du déploiement réel sur le terrain.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que je ferais autrement</span>
+                                <p>À l&#x27;avenir, pour me rapprocher encore plus des conditions réelles d&#x27;une entreprise, j&#x27;utiliserais des outils de virtualisation réseau plus avancés (comme GNS3) qui permettent d&#x27;exécuter de vrais systèmes d&#x27;exploitation de routeurs et de pare-feux professionnels plutôt qu&#x27;un simple simulateur visuel.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="ac-card">
+                        <div class="ac-header">
+                            <span class="ac-code">AC 31.04</span>
+                            <h3 class="ac-title">Défendre / argumenter un projet</h3>
+                        </div>
+                        <div class="ac-content">
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que j&#x27;ai fait</span>
+                                <p>Lors de mes soutenances de projets universitaires et à travers la préparation de mes bilans de stage, j&#x27;ai dû présenter, justifier et défendre mes choix techniques et mes propositions d&#x27;organisation devant des jurys d&#x27;enseignants et de professionnels.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Pourquoi</span>
+                                <p>L&#x27;objectif était de démontrer ma capacité à porter un projet de bout en bout, à prouver la pertinence de mes solutions par rapport aux contraintes du cahier des charges (budget, délais, sécurité) et à convaincre des décideurs de la viabilité de mes propositions.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Comment</span>
+                                <p>Je me suis appuyé sur des arguments factuels et chiffrés. Par exemple, pour justifier le choix de l&#x27;hyperviseur Proxmox VE dans mon projet, j&#x27;ai mis en avant l&#x27;indépendance financière vis-à-vis des hausses de prix des licences concurrentes et la robustesse de sa solution de sauvegarde intégrée. J&#x27;ai structuré mes présentations de manière logique en liant chaque décision technique à un bénéfice direct pour l&#x27;entreprise (gain de temps, sécurité accrue, économies).</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Difficultés</span>
+                                <p>La principale difficulté a été d&#x27;anticiper les questions pièges ou les objections du jury (notamment sur les coûts ou la complexité de maintenance) et de savoir y répondre calmement, avec des arguments techniques solides, sans me laisser déstabiliser.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que j&#x27;en ai appris</span>
+                                <p>J&#x27;ai appris que défendre un projet demande autant de compétences de communication que de compétences techniques. Un excellent ingénieur doit être capable de vulgariser ses choix, de prouver la rentabilité de ses solutions et de rassurer ses interlocuteurs sur la maîtrise des risques.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que je ferais autrement</span>
+                                <p>Pour améliorer mes futures présentations, je préparerais systématiquement une section d&#x27;annexes techniques très détaillées à la fin de mon diaporama. Si un membre du jury me pose une question pointue sur un coût précis ou une règle de filtrage, je pourrais afficher instantanément le tableau ou le schéma correspondant pour appuyer ma réponse visuellement.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="ac-card">
+                        <div class="ac-header">
+                            <span class="ac-code">AC 31.05</span>
+                            <h3 class="ac-title">Communiquer avec les acteurs du projet</h3>
+                        </div>
+                        <div class="ac-content">
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que j&#x27;ai fait</span>
+                                <p>Durant mon stage au Centre Hospitalier de Béthune-Beuvry, j&#x27;ai dû communiquer quotidiennement avec une grande diversité d&#x27;acteurs internes et externes à la Direction du Système d&#x27;Information (DSITNU).</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Pourquoi</span>
+                                <p>Dans un environnement complexe comme un hôpital, un technicien informatique n&#x27;intervient jamais seul. Il est indispensable de communiquer efficacement avec l&#x27;équipe support, les techniciens réseau, la direction des achats ou les prestataires pour coordonner les déploiements sans perturber l&#x27;activité de soin.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Comment</span>
+                                <p>J&#x27;ai adapté ma communication selon mes interlocuteurs. J&#x27;ai collaboré en binôme avec un technicien externe de chez Konica Minolta pour le déploiement des imprimantes. J&#x27;ai échangé par messages et partagé des fichiers de suivi Excel avec Alain Vasseur (pôle réseau) pour l&#x27;intégration des machines sur les bons VLANs. Enfin, j&#x27;ai fait des visites sur le terrain avec le cadre de santé de la maternité pour recenser les besoins physiques en prises réseau du projet Cardiotoco.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Difficultés</span>
+                                <p>La principale difficulté a été de gérer les différents niveaux de langage. Expliquer une contrainte technique (comme l&#x27;adressage IP d&#x27;une imprimante ou un problème de droit de session) à un cadre de santé ou à un agent administratif demande de traduire le jargon informatique en explications simples et axées sur leur métier.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que j&#x27;en ai appris</span>
+                                <p>J&#x27;ai appris qu&#x27;un projet informatique est avant tout une aventure humaine. La clé de la réussite repose sur la clarté des échanges, la mise à jour régulière des outils de suivi partagés (fichiers Excel, tickets GLPI) et la capacité à écouter les besoins du terrain pour apporter la solution la plus adaptée.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que je ferais autrement</span>
+                                <p>En entreprise, pour formaliser encore mieux ces échanges, je mettrais en place un court point météo (un Daily Stand-up de 5 minutes) chaque matin avec mon binôme ou mes collaborateurs directs lors des gros projets de déploiement, afin de faire un point immédiat sur les blocages de la veille et d&#x27;harmoniser nos actions.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="ac-card">
+                        <div class="ac-header">
+                            <span class="ac-code">AC 31.06</span>
+                            <h3 class="ac-title">Gérer le projet et les différentes étapes de sa mise en œuvre en respectant les délais</h3>
+                        </div>
+                        <div class="ac-content">
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que j&#x27;ai fait</span>
+                                <p>Durant mon stage de 3ème année au Centre Hospitalier de Béthune-Beuvry, j&#x27;ai piloté de bout en bout le projet de remplacement et de suivi du parc d&#x27;affichage (les écrans d&#x27;ordinateurs) à l&#x27;échelle de l&#x27;établissement.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Pourquoi</span>
+                                <p>Ce projet avait une contrainte de temps absolue et non négociable : l&#x27;hôpital basculait sur son nouveau système de dossier patient informatisé (ORBIS) le 24 avril 2026. Ce logiciel imposait une résolution d&#x27;affichage minimale que les anciens écrans 19 pouces du parc ne pouvaient pas satisfaire. Tous les moniteurs non conformes devaient impérativement être remplacés avant cette date butoir pour éviter de bloquer l&#x27;activité des soignants.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Comment</span>
+                                <p>Pour respecter ce délai serré, j&#x27;ai mis en place une gestion de projet rigoureuse. J&#x27;ai planifié les interventions à l&#x27;avance en prenant directement rendez-vous avec les médecins et les cadres de chaque service. Une fois sur le terrain, je procédais au remplacement physique de l&#x27;équipement. Pour assurer le suivi en temps réel et permettre à la direction d&#x27;avoir une visibilité sur l&#x27;avancement, je mettais à jour rigoureusement un fichier Excel de suivi centralisé et je clôturais les fiches correspondantes dans l&#x27;inventaire GLPI.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Difficultés</span>
+                                <p>La principale difficulté a été de gérer les imprévus techniques sur le terrain sans prendre de retard sur le calendrier. Plusieurs anciens ordinateurs possédaient des connectiques obsolètes (VGA/DVI) incompatibles avec les nouveaux écrans, ce qui m&#x27;a obligé à mettre à jour les pilotes graphiques et le BIOS via la plateforme de support constructeur pour résoudre le problème immédiatement et tenir les délais.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que j&#x27;en ai appris</span>
+                                <p>J&#x27;ai appris qu&#x27;un projet réussi dépend d&#x27;une planification stricte et d&#x27;un suivi au jour le jour. Respecter un jalon critique (comme la bascule ORBIS du 24 avril) demande d&#x27;anticiper les blocages logistiques et de maintenir des outils de suivi (fichiers Excel/GLPI) parfaitement à jour pour réagir vite face aux imprévus.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que je ferais autrement</span>
+                                <p>Si c&#x27;était à refaire, j&#x27;intégrerais une marge de sécurité temporelle (un « tampon » de quelques jours) dans le calendrier initial pour anticiper d&#x27;éventuels retards de livraison de matériel ou des indisponibilités de services, afin de réduire le stress de l&#x27;équipe à l&#x27;approche de la date butoir.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-row-1">
+            <h2 class="footer-name-massive">VALENTIN<span>.</span></h2>
+            <div class="footer-status">
+                <p class="caps bold-label">AVAILABLE JUNE 2026</p>
+            </div>
+        </div>
+        <div class="footer-row-2">
+            <div class="footer-col-left">
+                <div class="info-group">
+                    <span class="caps bold-label">STUDIES</span>
+                    <p>Monday — Friday</p>
+                </div>
+                <div class="info-group">
+                    <span class="caps bold-label">PROJECT TALKS</span>
+                    <p>Thursday afternoon & Saturday</p>
+                </div>
+            </div>
+            <div class="footer-col-right">
+                <p class="caps bold-label section-contact-title">HAVE A PROJECT IN MIND?</p>
+                <a href="mailto:vsailliot08@gmail.com" class="footer-mail-link">
+                    <span class="arrow">→</span> <u>vsailliot08@gmail.com</u>
+                </a>
+            </div>
+        </div>
+        <div class="footer-row-3">
+            <div class="footer-socials">
+                <span class="archivo-bold">SOCIALS</span>
+                <ul class="social-links-list">
+                    <li><a href="#" target="_blank">GITHUB</a></li>
+                    <li><a href="#" target="_blank">LINKEDIN</a></li>
+                </ul>
+            </div>
+            <p class="copyright-tag">© 2026 VALENTIN</p>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

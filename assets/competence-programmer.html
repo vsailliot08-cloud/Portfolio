@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmer | Valentin Sailliot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>:root { --page-color: var(--c-programmer); }</style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo" id="rotateLogo">VALENTIN<span>.</span></div>
+            <div class="nav-links">
+                <a href="index.html">Accueil</a>
+                <a href="index.html#projets" class="active-link">Projets</a>
+                <a href="about.html">À propos</a>
+            </div>
+            <a href="contact.html" class="nav-cta">Contact</a>
+        </nav>
+    </header>
+
+    <main class="competence-page">
+        <div class="competence-page-container">
+
+            <a href="index.html#projets" class="back-link">← Retour aux compétences</a>
+
+            <div class="competence-hero">
+                <div class="competence-hero-icon"><i class="fas fa-code"></i></div>
+                <div class="competence-hero-text">
+                    <span class="competence-hero-number">COMPÉTENCE 03</span>
+                    <h1 class="competence-hero-title">Programmer<span>.</span></h1>
+                    <p class="competence-hero-desc">Créer des outils et applications informatiques pour les R&amp;T</p>
+                </div>
+            </div>
+
+            <section class="year-section">
+                <div class="year-header">
+                    <span class="year-tag">BUT 3</span>
+                    <span class="year-label">Piloter un projet de développement d&#x27;une application R&amp;T</span>
+                    <span class="year-line"></span>
+                </div>
+                <div class="ac-list">
+                    <article class="ac-card">
+                        <div class="ac-header">
+                            <span class="ac-code">AC 33.01</span>
+                            <h3 class="ac-title">Élaborer les spécifications techniques et le cahier des charges d&#x27;une application informatique</h3>
+                        </div>
+                        <div class="ac-content">
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que j&#x27;ai fait</span>
+                                <p>Dans le cadre de la SAÉ 3.02, j&#x27;ai participé à la création d&#x27;une application de recherche de fichiers (Client/Serveur). Avant de coder, il a fallu définir précisément la structure de l&#x27;application : comment le client graphique (l&#x27;interface) allait demander des recherches et comment le serveur allait traiter les fichiers (PDF, Excel, HTML, TXT) pour renvoyer les résultats.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Pourquoi</span>
+                                <p>L&#x27;objectif était de poser des bases claires pour que le programme soit performant et logique. Sans ce travail de préparation et de spécification, on risquait de construire une application désorganisée, où le client et le serveur ne se comprenaient pas, ou qui plantait dès qu&#x27;un fichier était trop lourd.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Comment</span>
+                                <p>J&#x27;ai listé les fonctionnalités indispensables : recherche simple, recherche par critères (ET / OU) et utilisation d&#x27;expressions régulières (Regex). J&#x27;ai défini l&#x27;architecture des dossiers (un dossier pour chaque type de fichier : pdf, xlsx, html) et la méthode de communication (les requêtes) entre le script du client (client.py) et le script du serveur (server.py).</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Difficultés</span>
+                                <p>La principale difficulté a été de prévoir comment l&#x27;application allait réagir face à des formats de fichiers très différents. Lire du texte brut dans un fichier .txt est très simple, mais extraire du texte proprement depuis des cellules de tableau Excel (.xlsx) ou des pages de document .pdf demandait des règles techniques et des outils spécifiques qu&#x27;il a fallu anticiper dans le cahier des charges.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que j&#x27;en ai appris</span>
+                                <p>J&#x27;ai appris qu&#x27;un bon programme ne commence pas par du code, mais par une phase de réflexion. Structurer les besoins techniques à l&#x27;avance permet de gagner un temps précieux et d&#x27;éviter les erreurs logiques majeures durant le développement.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que je ferais autrement</span>
+                                <p>En situation réelle en entreprise, j&#x27;utiliserais des outils de maquettage visuel (comme Figma) pour dessiner l&#x27;interface utilisateur avant de la coder, et des diagrammes de flux de données pour formaliser encore plus précisément les échanges de messages entre le client et le serveur.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="ac-card">
+                        <div class="ac-header">
+                            <span class="ac-code">AC 33.02</span>
+                            <h3 class="ac-title">Mettre en place un environnement de travail collaboratif</h3>
+                        </div>
+                        <div class="ac-content">
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que j&#x27;ai fait</span>
+                                <p>Pour le développement de mon application de recherche de fichiers, j&#x27;ai mis en place et utilisé un espace de travail partagé en utilisant la plateforme GitLab de l&#x27;université.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Pourquoi</span>
+                                <p>L&#x27;objectif était de pouvoir coder l&#x27;application à plusieurs en même temps sans risquer d&#x27;effacer le travail des autres. Sans un outil collaboratif comme Git, il est impossible de fusionner proprement le code du client (l&#x27;interface graphique) et le code du serveur (le moteur de recherche) que nous développions en parallèle.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Comment</span>
+                                <p>Nous avons partagé notre code sur un dépôt distant GitLab (à l&#x27;adresse officielle de notre projet universitaire). À chaque fois qu&#x27;un membre de l&#x27;équipe terminait une fonctionnalité ou corrigeait un bug dans les scripts Python (client.py ou server.py), il envoyait ses modifications (commit et push) sur la plateforme pour que tout le monde ait l&#x27;application à jour.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Difficultés</span>
+                                <p>La principale difficulté a été de gérer ce que l&#x27;on appelle les « conflits » de version. Au début, il nous est arrivé de modifier exactement le même fichier Python au même moment. Lorsque l&#x27;on voulait fusionner nos codes, GitLab bloquait en signalant des lignes contradictoires. Il a fallu apprendre à lire ces alertes et à communiquer au sein de l&#x27;équipe pour choisir quelle partie du code conserver.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que j&#x27;en ai appris</span>
+                                <p>J&#x27;ai compris que le développement informatique moderne ne se fait pas tout seul dans son coin. Savoir utiliser les outils de gestion de version (comme Git) et s&#x27;entendre sur qui fait quoi est tout aussi important que de savoir écrire des lignes de code fonctionnelles.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que je ferais autrement</span>
+                                <p>En entreprise, pour éviter ces blocages, je mettrais en place une règle de travail plus stricte (le Git Flow) : chacun travaillerait sur une copie invisible de l&#x27;application (une branche dédiée) et aucune modification ne serait ajoutée au code principal sans avoir été d&#x27;abord vérifiée et validée par un autre membre de l&#x27;équipe.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="ac-card">
+                        <div class="ac-header">
+                            <span class="ac-code">AC 33.03</span>
+                            <h3 class="ac-title">Participer à la formation des utilisateurs</h3>
+                        </div>
+                        <div class="ac-content">
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que j&#x27;ai fait</span>
+                                <p>Lors de mon stage au Centre Hospitalier de Béthune-Beuvry, j&#x27;ai formé la cadre de santé du service de la pharmacie à la configuration des droits d&#x27;impression en couleur sur les nouvelles imprimantes Konica Minolta.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Pourquoi</span>
+                                <p>Dans ce service, les agents partagent les mêmes ordinateurs sans avoir de session fixe attitrée, ce qui bloquait l&#x27;attribution automatique des droits couleur. En formant directement la responsable, l&#x27;objectif était de lui donner les clés pour qu&#x27;elle puisse gérer elle-même et en toute autonomie les accès de ses équipes actuelles ou des nouveaux arrivants.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Comment</span>
+                                <p>Pour faire cette formation, je me suis déplacé directement dans son service. Je lui ai montré pas-à-pas la manipulation : comment se connecter, ouvrir les paramètres de l&#x27;imprimante et renseigner le code d&#x27;accès spécifique requis par l&#x27;hôpital pour débloquer la couleur. J&#x27;ai veillé à utiliser un langage simple et non technique pour qu&#x27;elle mémorise facilement la procédure.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Difficultés</span>
+                                <p>La principale difficulté était que la cadre de la pharmacie n&#x27;avait pas un profil informatique et son temps était précieux. Il a fallu être très concis, aller droit au but et s&#x27;adapter à son rythme pour que cette tâche supplémentaire ne devienne pas une contrainte dans son travail quotidien de soin.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que j&#x27;en ai appris</span>
+                                <p>J&#x27;ai appris qu&#x27;un bon technicien doit aussi être un bon pédagogue. Installer une technologie ne suffit pas ; si les utilisateurs finaux ou les responsables ne savent pas s&#x27;en servir ou la gérer, le déploiement est un échec. Cette action m&#x27;a montré l&#x27;importance de la transmission des connaissances sur le terrain.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que je ferais autrement</span>
+                                <p>Pour parfaire cette formation, je ne me contenterais pas d&#x27;une explication orale. Rédiger et lui laisser une fiche mémo visuelle d&#x27;une seule page (avec des captures d&#x27;écran simples) lui aurait permis de s&#x27;y référer des mois plus tard en cas d&#x27;oubli, sans avoir à solliciter à nouveau le support informatique.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="ac-card">
+                        <div class="ac-header">
+                            <span class="ac-code">AC 33.04</span>
+                            <h3 class="ac-title">Déployer et maintenir une solution informatique</h3>
+                        </div>
+                        <div class="ac-content">
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que j&#x27;ai fait</span>
+                                <p>Lors de mes différents projets (comme la SAÉ 3.02 ou les différents TPs abordés en cours), j&#x27;ai rédigé des guides techniques complets, sous forme de fichiers README et de Write-Ups, pour en assurer la maintenance future.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Pourquoi</span>
+                                <p>L&#x27;objectif était de garantir que l&#x27;application puisse être installée facilement sur n&#x27;importe quel ordinateur et qu&#x27;elle reste fonctionnelle dans le temps. Sans un guide de déploiement et de maintenance clair, une application risque de devenir inutilisable dès qu&#x27;un composant change ou qu&#x27;un nouveau technicien doit s&#x27;en occuper.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Comment</span>
+                                <p>Dans mes fichiers README, j&#x27;ai listé précisément l&#x27;ensemble des prérequis et des paquets logiciels nécessaires (comme PyPDF2, pandas ou beautifulsoup4 pour la SAÉ 3.02). J&#x27;ai décrit étape par étape les commandes pour installer les dépendances (via un fichier requirements.txt) et les instructions pour lancer et tester correctement le serveur et le client.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Difficultés</span>
+                                <p>La principale difficulté a été de s&#x27;assurer que le guide de déploiement fonctionne sur n&#x27;importe quel système d&#x27;exploitation (Windows, macOS ou Linux). Par exemple, certains outils graphiques (comme la bibliothèque tkinter) sont inclus par défaut sur Windows mais demandent une commande d&#x27;installation manuelle spécifique sur Linux, ce qu&#x27;il a fallu documenter pour éviter les blocages au démarrage.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que j&#x27;en ai appris</span>
+                                <p>J&#x27;ai appris que le travail d&#x27;un informaticien ne s&#x27;arrête pas quand le code fonctionne sur son propre ordinateur. Déployer et maintenir demande une grande rigueur dans l&#x27;écriture des guides (Write-Ups) pour anticiper les erreurs d&#x27;environnement et formaliser le cycle de vie de l&#x27;application.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que je ferais autrement</span>
+                                <p>À l&#x27;avenir, j&#x27;automatiserais le déploiement en utilisant un conteneur Docker ou un script d&#x27;installation automatique (Makefile), ce qui garantirait un environnement identique quel que soit le système d&#x27;exploitation et éliminerait les problèmes de compatibilité.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="ac-card">
+                        <div class="ac-header">
+                            <span class="ac-code">AC 33.05</span>
+                            <h3 class="ac-title">S&#x27;informer sur les évolutions et les nouveautés technologiques</h3>
+                        </div>
+                        <div class="ac-content">
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que j&#x27;ai fait</span>
+                                <p>Même si nous n&#x27;avons pas eu de cours dédié à cette compétence à l&#x27;IUT ou en stage, je l&#x27;ai mise en pratique de manière autonome tout au long de mes trois années d&#x27;études en effectuant une veille technologique constante sur les nouveautés informatiques.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Pourquoi</span>
+                                <p>Dans le domaine des réseaux et de la cybersécurité, les technologies et les menaces évoluent tous les jours. Pour rester performant, éviter d&#x27;utiliser des outils obsolètes et être prêt pour le monde professionnel, il est indispensable de se tenir continuellement informé des dernières nouveautés.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Comment</span>
+                                <p>Pour m&#x27;informer, je me documente régulièrement sur des sites spécialisés comme IT-Connect, qui propose des tutoriels et des articles sur les nouveautés systèmes et réseaux. Lorsque je rencontre un blocage technique dans mes projets, je consulte la communauté de professionnels sur le forum Reddit, notamment les sections comme r/sysadmin. Enfin, je regarde des vidéos et des podcasts sur YouTube, comme ParlonsCyber, pour suivre l&#x27;actualité de la cybersécurité.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Difficultés</span>
+                                <p>La principale difficulté est de faire le tri dans la quantité énorme d&#x27;informations disponibles sur internet. Il est facile de s&#x27;y perdre. Il a fallu apprendre à filtrer les actualités pour ne retenir que ce qui est vraiment fiable, sérieux et utile pour mes études et mon futur métier.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que j&#x27;en ai appris</span>
+                                <p>J&#x27;ai appris qu&#x27;un bon informaticien ne s&#x27;arrête jamais d&#x27;apprendre. Cette veille permanente m&#x27;a rendu plus autonome et m&#x27;a donné le réflexe de chercher des solutions par moi-même, ce qui est une qualité essentielle pour résoudre des problèmes complexes sur le terrain.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que je ferais autrement</span>
+                                <p>En entreprise, plutôt que de faire cette veille de manière un peu aléatoire quand j&#x27;y pense, je structurerais cette démarche. J&#x27;utiliserais un agrégateur de flux (comme Feedly) pour centraliser automatiquement toutes mes sources préférées au même endroit et je planifierais un créneau fixe d&#x27;une heure par semaine dédié uniquement à la lecture de l&#x27;actualité technique.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="ac-card">
+                        <div class="ac-header">
+                            <span class="ac-code">AC 33.06</span>
+                            <h3 class="ac-title">Sécuriser l&#x27;environnement numérique d&#x27;une application</h3>
+                        </div>
+                        <div class="ac-content">
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que j&#x27;ai fait</span>
+                                <p>Dans le cadre de la SAÉ 4.01, j&#x27;ai développé et sécurisé les scripts de code d&#x27;une page de connexion web en PHP pour protéger l&#x27;accès à une application et à sa base de données.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Pourquoi</span>
+                                <p>L&#x27;objectif était d&#x27;empêcher qu&#x27;un utilisateur malveillant puisse pirater l&#x27;application, intercepter des sessions ou deviner des mots de passe en testant des milliers de combinaisons (attaques par force brute). Sans ces barrières de sécurité directement intégrées dans le code, l&#x27;environnement numérique de l&#x27;application restait totalement vulnérable aux intrusions.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Comment</span>
+                                <p>J&#x27;ai intégré plusieurs mécanismes de protection dans mon code PHP. D&#x27;abord, j&#x27;ai configuré un système de jetons invisibles (tokens CSRF) pour valider l&#x27;authenticité de chaque formulaire envoyé. Ensuite, j&#x27;ai utilisé la fonction password_verify pour vérifier les mots de passe sans jamais les stocker en clair en base de données (utilisation de clés hachées). Enfin, j&#x27;ai codé une règle qui bloque temporairement l&#x27;accès après 5 tentatives de connexion échouées.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Difficultés</span>
+                                <p>La principale difficulté a été de s&#x27;assurer que les jetons de sécurité (tokens) et les variables de session se détruisent correctement et de manière sécurisée dès que l&#x27;utilisateur ferme son navigateur ou se déconnecte. Il a fallu être très rigoureux sur les paramètres des cookies pour éviter qu&#x27;un pirate puisse voler une session active.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que j&#x27;en ai appris</span>
+                                <p>J&#x27;ai appris que la sécurité d&#x27;un système ne dépend pas uniquement des pare-feu extérieurs, mais qu&#x27;elle doit être pensée dès l&#x27;écriture du code (concept de Security by Design). Chaque ligne de code qui gère des données utilisateurs doit être verrouillée pour fermer toutes les portes d&#x27;entrée possibles.</p>
+                            </div>
+                            <div class="ac-detail">
+                                <span class="ac-detail-label">Ce que je ferais autrement</span>
+                                <p>Pour élever encore le niveau de sécurité, je n&#x27;attendrais pas la fin du développement pour tester l&#x27;application. J&#x27;utiliserais des outils d&#x27;analyse de code automatisés (comme des scanners de vulnérabilités) tout au long de l&#x27;écriture du script pour détecter les failles logiques ou les erreurs de syntaxe au fur et à mesure.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-row-1">
+            <h2 class="footer-name-massive">VALENTIN<span>.</span></h2>
+            <div class="footer-status">
+                <p class="caps bold-label">AVAILABLE JUNE 2026</p>
+            </div>
+        </div>
+        <div class="footer-row-2">
+            <div class="footer-col-left">
+                <div class="info-group">
+                    <span class="caps bold-label">STUDIES</span>
+                    <p>Monday — Friday</p>
+                </div>
+                <div class="info-group">
+                    <span class="caps bold-label">PROJECT TALKS</span>
+                    <p>Thursday afternoon & Saturday</p>
+                </div>
+            </div>
+            <div class="footer-col-right">
+                <p class="caps bold-label section-contact-title">HAVE A PROJECT IN MIND?</p>
+                <a href="mailto:vsailliot08@gmail.com" class="footer-mail-link">
+                    <span class="arrow">→</span> <u>vsailliot08@gmail.com</u>
+                </a>
+            </div>
+        </div>
+        <div class="footer-row-3">
+            <div class="footer-socials">
+                <span class="archivo-bold">SOCIALS</span>
+                <ul class="social-links-list">
+                    <li><a href="#" target="_blank">GITHUB</a></li>
+                    <li><a href="#" target="_blank">LINKEDIN</a></li>
+                </ul>
+            </div>
+            <p class="copyright-tag">© 2026 VALENTIN</p>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
